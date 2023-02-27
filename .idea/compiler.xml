@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="TestIdleStateHandler" />
+        <module name="rpc4.1" />
+        <module name="rpc6" />
+        <module name="rpc5" />
+        <module name="rpc7" />
+        <module name="rpc2" />
+        <module name="rpc1" />
+        <module name="rpc4" />
+        <module name="rpc3" />
+        <module name="rpc0" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rpc7" options="-parameters" />
+    </option>
+  </component>
+</project>
